@@ -13,14 +13,13 @@ body {
     justify-content: center;
     min-height: 100vh; /* viewport height to center the image vertically */
     align-items: center;
-    margin: 0;
+    margin: 0px;
     
 }
 
 body p {
     font-size: 15px;
     color:  hsl(220, 15%, 55%);
-    padding: 0 15px;
 }
 
 h1 {
@@ -40,7 +39,7 @@ img {
     border-radius: 20px;
     padding: 20px;
     display: block;
-    max-width: 250px;
+    max-width: 80vw;
+    max-height: 80vh;
     box-shadow: 0px 10px 30px -10px hsl(226, 31%, 47%);
-    transform: scale(0.8);
 }
