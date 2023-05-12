@@ -42,5 +42,5 @@ img {
     display: block;
     max-width: 250px;
     box-shadow: 0px 10px 30px -10px hsl(226, 31%, 47%);
-    
+    margin: 20px; /* Add this line */
 }
