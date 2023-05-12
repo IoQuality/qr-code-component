@@ -11,8 +11,9 @@ body {
     text-align: center;
     display: grid;
     justify-content: center;
-    height: 100vh; /* viewport height to center the image vertically */
+    min-height: 100vh; /* viewport height to center the image vertically */
     align-items: center;
+    margin: 0;
     
 }
 
