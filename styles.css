@@ -11,7 +11,6 @@ body {
     text-align: center;
     display: grid;
     justify-content: center;
-    min-height: 100vh; /* viewport height to center the image vertically */
     align-items: center;
     margin: 0px;
     
@@ -41,5 +40,8 @@ img {
     display: block;
     max-width: 250px;
     box-shadow: 0px 10px 30px -10px hsl(226, 31%, 47%);
-    max-height: 80vh;
+}
+
+html, body {
+    height: 100%;
 }
